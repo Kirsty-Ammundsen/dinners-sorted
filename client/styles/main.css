@@ -1,0 +1,252 @@
+/* Colour Palettes:
+dark green { 
+	background: #394a51; 
+}
+	
+sea green { 
+	background: #7fa99b; 
+}
+
+beige { 
+	background: #fbf2d5; 
+}
+
+yellow sand { 
+	background: #fdc57b; 
+
+
+Fonts:
+
+font-family: 'Bitter', serif;
+font-family: 'Lobster', sans-serif;
+*/
+
+body {
+  background-color: #fbf2d5;
+  margin: 0;
+  color: #394a51;
+  font-family: 'Bitter', serif;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+/* Navbar CSS */
+.navbar {
+  display: flex;
+  position: fixed;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #7fa99b;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  padding-bottom: 20px;
+  box-shadow: 10px 5px 5px #394a51;
+  z-index: index 3;
+}
+
+.logo-combined {
+  height: 30px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.outer-circle {
+  background-color: #fbf2d5;
+  margin-right: 20px;
+  padding: 10px;
+  border-radius: 50%;
+  height: 60px;
+  /* margin-bottom: 20px; */
+}
+
+.tea {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  /* margin-right: 20px; */
+}
+
+.cursed-tea-words {
+  margin-top: 50px;
+  color: #fbf2d5;
+}
+
+.cursed-tea-words:hover {
+  color: #394a51;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+
+nav li {
+  margin: 10px;
+  color: #fbf2d5;
+  padding-inline: 10px;
+  font-size: 25px;
+}
+
+nav li:hover {
+  color: #394a51;
+}
+
+/* Home Page CSS */
+
+.home-image {
+  background-image: url('../images/food-background.jpg');
+  background-color: #fbf2d5;
+  position: static;
+  /* width: 100vw; */
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+}
+
+h1 {
+  background-color: #fbf2d5ac;
+  padding: 30px;
+  text-align: center;
+  border: #fdc57b solid 10px;
+  /* border-radius: 45%; */
+  width: 100%;
+  font-size: 4rem;
+  position: absolute;
+  top: 78%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #394a51;
+  font-family: 'Lobster', sans-serif;
+  z-index: 1;
+}
+
+h1:hover {
+  color: #7fa99b;
+}
+
+/* Recipe Page CSS */
+
+.recipes-heading {
+  padding-left: 5vh;
+  font-size: 30px;
+}
+
+.recipes-page {
+  padding-top: 8rem;
+  padding-left: 5vh;
+}
+
+.recipe-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.each-recipe {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.outside-recipe-img {
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+  overflow: hidden;
+  /* margin-bottom: 10px; */
+}
+
+.recipe-img {
+  width: 250px;
+}
+
+.recipe-img:hover {
+  opacity: 0.7;
+}
+
+.recipe-name {
+  list-style-type: none;
+  color: #394a51;
+  font-size: large;
+  position: relative;
+  bottom: 50%;
+  text-align: center;
+  background-color: #fbf2d5c3;
+  padding: 5px 0px;
+  width: 150px;
+}
+
+.recipe-name:hover {
+  color: #fdc57b;
+}
+
+/* Recipe Details CSS */
+
+.recipe-details-page {
+  padding-top: 7rem;
+  padding-left: 10vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.details-img {
+  height: 200px;
+  border-radius: 20px;
+}
+
+/* Sort CSS (has a lot of styling from the all recipes page) */
+
+.sort-page {
+  padding-top: 8rem;
+  height: 75vh;
+}
+
+.sort-dinner-button {
+  background-color: #fdc57b83;
+  padding: 30px;
+  text-align: center;
+  border: #fdc57b solid 10px;
+  /* border-radius: 45%; */
+  width: 100%;
+  font-size: 2rem;
+  color: #394a51;
+  font-family: 'Lobster', sans-serif;
+  margin-top: 15vh;
+  margin-bottom: 30px;
+}
+
+.sort-dinner-button:hover {
+  color: #7fa99b;
+}
+
+/* Footer CSS */
+
+footer {
+  position: static;
+  text-align: center;
+  padding: 20px;
+  background-color: #7fa99b;
+  color: #fbf2d5;
+}
